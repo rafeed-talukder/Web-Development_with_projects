@@ -1,0 +1,88 @@
+.navbar{
+  height: 70px;
+  background: black;
+}
+.logo{
+  height: 52px;
+  margin-left: 81px;
+  padding: 10px;
+}
+.nav-items{
+  float: right;
+  display: block;
+}
+.nav-items ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav-items li {
+  float: left;
+}
+
+.nav-items li a {
+    display: block;
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    background: red;
+    text-align: center;
+    list-style: none;
+    width: 100px;
+    margin-right: 44px;
+    border-radius: 4px;
+}
+.banner{
+  width: 100%;
+  height: 400px;
+}
+.overview{
+  text-align: center;
+  margin-top: 22px;
+}
+table {
+  width: 83%;
+  margin: auto;
+  padding: 38px;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  background-color: #dddddd;
+
+}
+th {
+  background: #3ea94b99;
+}
+.from{
+    background: #246820bf;
+    padding-top: 10px;
+}
+
+.from-action{
+  width: 54%;
+  margin: center;
+  margin: auto;
+  padding-bottom: 10px;
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+.footer{
+  background: black;
+  height: 100px;
+  margin-top: 10px;
+}
