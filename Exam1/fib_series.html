@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    var num1 = 0;
+    var num2 = 1;
+    var temp;
+    var n = window.prompt("enter your value");
+    document.write(num1 + "<br>");
+    document.write(num2 + "<br>");
+
+    for (var i = 3; i <= n; i++) {
+      temp = num1 + num2;
+      num1 = num2;
+      num2 = temp;
+      document.write(temp + "<br>");
+    }
+  </script>
+</body>
+
+</html>

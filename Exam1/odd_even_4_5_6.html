@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    var sum = 0;
+    var sum2 = 0;
+    var count = 0;
+    var count2 = 0;
+    for (var i = 101; i <= 231; i++) {
+      if (i % 2 == 0) {
+        count++;
+        sum = sum + i;
+
+      } else {
+        count2++;
+        sum2 = sum2 + i;
+
+      }
+    }
+    document.write("The Count Of even Numbers are:" + count + "<br>");
+    document.write("even sum is :" + sum + "<br>" + "<br>" + "<br>");
+
+    document.write("The Count Of Odd Numbers are:" + count2 + "<br>");
+    document.write("odd sum is :" + sum2 + "<br>" + "<br>" + "<br>");
+  </script>
+</body>
+
+</html>
